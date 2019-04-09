@@ -3,10 +3,10 @@
 LIRI is like the iphones SIRI, but insead of using speech you must use a command to find information for relative data. LIRI is a command line node application that takes in a command and they type of subject you want to search. 
 
 Comands are 
-1. "spotify-this-song"
-2. "movie-this"
-3. "concert-this"
-4. "do-what-it-says"
+1.  "spotify-this-song"
+2.  "movie-this"
+3.  "concert-this"
+4.  "do-what-it-says"
 
 ## Usage
 All commands must be ran in the terminal. 
