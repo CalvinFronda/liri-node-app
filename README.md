@@ -20,7 +20,7 @@ Output:
 * Preview link: 30 second preview of song (if avaliable)
 * Song album: name of album `
 ```
-`movie-this`: This command will use OMBD data base to search a movie and give you relative information on that movie. The movie must be a valid movie or there will be some errors. 
+`movie-this`: This command will use OMDB data base to search a movie and give you relative information on that movie. The movie must be a valid movie or there will be some errors. 
 
 Ex: `node liri.js movie-this movie`
 Output: 
@@ -59,3 +59,14 @@ Output:
 ```
 ## Technologies Utilized
 
+*   NodeJs
+*   JavaScript
+*   Spotify API
+*   OMDB API
+*   Bands In Town API
+*   Moments.js
+*   Axios
+*   DotEnv
+
+## Author
+*   Calvin Fronda
