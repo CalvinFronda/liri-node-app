@@ -9,7 +9,7 @@ Comands are :
 4.  "do-what-it-says"
 
 ## Preview
-![](./Gifs/liriapp.gif)
+![](Desktop/Gifs/liriapp.gif)
 
 ## Usage
 All commands must be ran in the terminal. 
