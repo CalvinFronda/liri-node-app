@@ -1,17 +1,20 @@
 # liri-node-app
 
-LIRI is like the iphones SIRI, but insead of using speech you must use a command to find information for relative data. LIRI is a command line node application that takes in a command and they type of subject you want to search. 
+LIRI is like the iphones SIRI, but insead of using speech you must use a command to find information for relative data. LIRI is a command line node application that takes in a command and users type a subject to search. 
 
-Comands are 
+Comands are :
 1.  "spotify-this-song"
 2.  "movie-this"
 3.  "concert-this"
 4.  "do-what-it-says"
 
+## Preview
+![](/Gifs/liriapp.gif)
+
 ## Usage
 All commands must be ran in the terminal. 
 
-`spotify-this-song`: This command will use spotifys API to look for a song title and give you realtive information on that song. This is set to the a limit of 5 songs, but that can be changed in the "spotifyThis" function. 
+`spotify-this-song`: This command will use spotifys API to look for a song title and give you  information on that song. This is set to the a limit of 5 songs, but that can be changed in the "spotifyThis" function. 
 Ex: `node liri.js spotify-this-song song`
 Output: 
 ```
@@ -20,7 +23,7 @@ Output:
 * Preview link: 30 second preview of song (if avaliable)
 * Song album: name of album `
 ```
-`movie-this`: This command will use OMDB data base to search a movie and give you relative information on that movie. The movie must be a valid movie or there will be some errors. 
+`movie-this`: This command will use OMDB data base to search a movie and give you  information on that movie. The movie must be a valid movie or there will errors. 
 
 Ex: `node liri.js movie-this movie`
 Output: 
@@ -45,7 +48,7 @@ Output:
 *Date of the Event
 ```
 
-`do-what-it-says`: This command will read from the `random.txt` file a default command inside that file. This command does not need any user input opposed to the initiation of the command. The default command is `spotify-this-song 'I Want It That Way`
+`do-what-it-says`: This command will read from the `random.txt` file a command inside that file. This command does not need any user input opposed to the initiation of the command. The default command is `spotify-this-song 'I Want It That Way`
 Ex. `node liri.js do-what-it-says`
 
 Output:
