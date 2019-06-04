@@ -4,7 +4,7 @@
   "description": "LIRI is like the iphones SIRI, but insead of using speech you must use a command to find information for relative data. LIRI is a command line node application that takes in a command and they type of subject you want to search.",
   "main": "keys.js",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "dotenv": "^7.0.0",
     "moment": "^2.24.0",
     "moments": "^0.0.2",
