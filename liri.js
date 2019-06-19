@@ -13,6 +13,7 @@ var spotify = new Spotify(keys);
 
 //Using spotify api to get the name of song
 function spotifyThis(secondCommand){
+    
     spotify.search({
         type: "track",
         query: secondCommand,
@@ -21,6 +22,7 @@ function spotifyThis(secondCommand){
     })
     .then(function(data,err){
         if(err){
+            
             console.log("error : " + err);
         }
         var songs = data.tracks.items;
@@ -99,6 +101,7 @@ function whatISay(){
     fs.readFile('random.txt', 'utf8', function(err,data){
         if(!err);
         var cmd = data.toString().split(",")
+        
         spotifyThis(cmd[1]);
     })
 
